@@ -89,3 +89,8 @@ type ResponseJ struct{
 type MsgJ struct{
 	Msg string `json:"msg"`
 }
+
+func Delmsg(w http.ResponseWriter,r *http.Request){
+	
+
+}
